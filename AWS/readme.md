@@ -9,13 +9,13 @@ When running packer in remote, comment this line and pass env vars.
 
 (create an IAM user with admin or req. permissions, create access and secret key for that user and pass them here)
 
-> Windows:
+    > Windows:
 
     $env:AWS_ACCESS_KEY_ID = ""
     $env:AWS_SECRET_ACCESS_KEY = ""
 
 
->    Linux:
+    >    Linux:
 
     export AWS_ACCESS_KEY_ID=""
     export AWS_SECRET_ACCESS_KEY=""
